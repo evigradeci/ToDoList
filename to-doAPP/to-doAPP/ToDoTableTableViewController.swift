@@ -38,7 +38,7 @@ class ToDoTableTableViewController: UITableViewController {
         let eachToDo = listOfToDo[indexPath.row]
         if eachToDo.important {
             cell.textLabel?.text = "!" + eachToDo.description
-            cell.textLabel?.text = eachToDo.description
+
     } else {
         cell.textLabel?.text = eachToDo.description
     }
